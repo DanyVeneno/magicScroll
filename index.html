@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>MagicScroll | Yehiibhii</title>
+
+    <script src="libs/gsap/gsap.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <header class="hero-section">
+          <img data-speed=".6" class="hero" src="img/hero.png" alt="Alt" />
+          <div class="container">
+            <div data-speed=".75" class="main-header">
+              <h1
+                class="main-title bg-gradient-to-r from-orange-400 via-neutral-900 to-lime-500 bg-clip-text text-transparent"
+              >
+                <strong>Disrupt Yourself <br />or not!</strong>
+              </h1>
+            </div>
+          </div>
+        </header>
+
+        <div class="portfolio">
+          <div class="container">
+            <main class="gallery">
+              <div data-speed=".9" class="gallery__left">
+                <img class="gallery__item" src="img/work/1.jpg" alt="Alt" />
+                <img class="gallery__item" src="img/work/2.jpg" alt="Alt" />
+
+                <div class="text-block gallery__item">
+                  <h2 class="text-block__h">
+                    "Creativo desplazamiento flotante con asombroso efecto
+                    parallax
+                  </h2>
+                  <p class="text-block__p">
+                    El efecto parallax se refiere al cambio aparente en la
+                    posición de un objeto cuando se observa desde diferentes
+                    puntos de vista. En otras palabras, el efecto parallax
+                    ocurre cuando la posición aparente de un objeto parece
+                    moverse cuando se observa desde diferentes ángulos.
+                  </p>
+                </div>
+
+                <img class="gallery__item" src="img/work/6.jpg" alt="Alt" />
+              </div>
+
+              <div data-speed="1.1" class="gallery__right">
+                <div class="text-block gallery__item">
+                  <h2 class="text-block__h">
+                    La importancia de y la necesidade de el desarrollo UI/UX.
+                  </h2>
+                  <p class="text-block__p">
+                    UI/UX es un término que se refiere a la práctica de diseñar
+                    productos y servicios digitales que sean fáciles de usar y
+                    atractivos visualmente. UI/UX se basa en la comprensión de
+                    las necesidades y deseos de los usuarios y en la creación de
+                    interfaces que sean intuitivas, eficientes y agradables de
+                    usar.
+                  </p>
+                </div>
+
+                <img class="gallery__item" src="img/work/4.jpg" alt="Alt" />
+                <img class="gallery__item" src="img/work/5.jpg" alt="Alt" />
+                <img class="gallery__item" src="img/work/3.jpg" alt="Alt" />
+              </div>
+            </main>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
